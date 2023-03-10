@@ -1,0 +1,19 @@
+package com.code_practice;
+import java.util.Scanner;
+public class Handling_Demo {
+    public static void main(String []args){
+Scanner scr=new Scanner(System.in);
+System.out.println("enter final and intial value");
+int n1= scr.nextInt();
+int n2=scr.nextInt();
+int num,fact,i;
+
+for(i=n1;i<=n2;i++){
+    fact=1;
+    for(num=1;num<=i;num++){
+        fact=fact*num;
+    }
+    System.out.println("Factorial : "+fact);
+}
+}
+}
